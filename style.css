@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("image.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+      width: 380px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10%;
+      border-radius:10px;
+      box-shadow: 0 10px 20px rgb(52, 51, 51);;
+      background-color: rgba(0,0,0,0.1);
+      overflow: hidden;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(128, 127, 127);
+}
+.container{
+    padding: 16px;
+}
+input[type="text"],input[type="password"]{
+    width: 100%;
+    margin: 8px 0;
+    padding:12px 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+}
+input[type="text"],input[type="password"]:focus{
+    outline:none;
+    background-color: #d3d3d3;
+}
+#Forgot-pswd{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 15px;
+    float: right;
+    cursor: pointer;
+}
+#Forgot-pswd:hover{
+    color:#b318c1;
+}
+#login-btn{
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 8px 0;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #9aadf7, #df70e9);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+#login-btn:hover{
+    background-image: linear-gradient(to right, #df70e9,#9aadf7);
+}
+.member{
+    padding: 16px;
+    font-size: 15px;
+    text-align: center;
+    color: #ffff;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#sign-in{
+    color:#e580ee;
+    text-decoration: none;
+    cursor: pointer;
+}
+#sign-in:hover{
+    color: rgb(174, 176, 178);
+}
